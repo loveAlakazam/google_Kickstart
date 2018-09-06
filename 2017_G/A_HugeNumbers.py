@@ -1,3 +1,4 @@
+# https://code.google.com/codejam/contest/3254486/dashboard
 '''
 Kick start G- 1
 
