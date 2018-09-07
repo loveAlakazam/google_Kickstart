@@ -1,4 +1,4 @@
-# small-data-set과 large-data-set 둘다 correct받음
+# small-data-set만 correct받음...
 # https://code.google.com/codejam/contest/4394486/dashboard#s=p0
 # -*- coding: utf-8 -*-
 import os
