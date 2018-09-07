@@ -6,7 +6,7 @@ def find_lowest_complain(N,M,P, friends_prefer, forbidden_list):
     cases=[]
     for i in range(2**P):#0~2**P-1
         s= str(bin(i))[2:] #앞의 '0b'제외
-        #글자수가 P개인 바이너스트링으로 바꾸기..
+        #글자수가 P개인 바이너리 스트링으로 바꾸기..
         if len(s)<P:
             for i in range(P-len(s)):#차이만큼 '0'추가
                 s='0'+s
