@@ -30,38 +30,6 @@ def main():
     result_file=open('result_b.txt','w')
     
     case=int(read_file.readline()) #100, str->int로 type변경
-    #print('testCase: ', case)
-    
-    """
-    cardsNum= read_file.readline()
-    print('cardsNum: ',cardsNum)
-    print('cardsNum type: ', type(cardsNum)) #<class 'str'>
-
-    red1=read_file.readline()
-    print('red1: ', red1) # 872031131 582064085 853700360 ...
-    print('red1 type: ',type(red1)) #<class 'str'>
-
-    #' '스페이스바를 기준으로 원소를구분하여, 문자열을 리스트로 변환
-    #str은 split()을 이용하여 공백(' ')으로 나눠진 원소로하는 리스트로 변환
-    reds=[ int(x) for x in red1.split()]
-
-    print(reds)
-    print(type(reds[1])) #<class 'int'>
-    ========================================================================
-    '''
-    ex)
-    문자열 10 11 12 를 원소가 int형인 리스트로 바꾸려면...
-    red1="10 11 12" #type: str
-    red1.split() => ['10', '11', '12'] #리스트로 바꼈지만, 원소는 str
-    for i in range(len(red1)):
-        red1[i]=int(red1[i])
-
-    이것은
-    red1=[ int(x) for x in red1.split()] 와 같다....
-    '''    
-    
-
-    """
     
     for t in range(case): #0~99
         #박스에 있는 카드의 개수이다. str->int로 타입변환
