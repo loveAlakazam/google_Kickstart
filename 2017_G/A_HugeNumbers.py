@@ -45,7 +45,7 @@ def main(A,N,P):
 if __name__=='__main__':
     test=open("A-small-practice.in", "r") #읽기모드로 데이터를 읽는다.
     T=int(test.readline()) #맨위 테스트케이스
-    print('T=',T)
+    #print('T=',T)
 
     
     #파일 메모장을 만든다. => 메모장에 내용을 입력한다.
